@@ -5,7 +5,12 @@ En la primera sesión nos familiarizaremos con el [entorno de trabajo](#entorno-
 
 # Entorno de trabajo
 
-Para la realización de la práctica, deberemos ser capaces de abrir, modificar y ejecutar los cuadernos Jupyter proporcionados, así como crear nuevos cuadernos. Para ello tenemos tres opciones.
+Para la realización de la práctica, deberemos ser capaces de abrir, modificar y ejecutar los cuadernos Jupyter proporcionados, así como crear nuevos cuadernos. Para ello tenemos tres opciones:
+
+- [Opción a): Google Colab](#opción-a-google-colab)
+- [Opción b): Jupyter Notebook en PolilabsVPN](#opción-b-jupyter-notebook-en-polilabsvpn)
+- [Opción c): Jupyter Notebook en vuestros PCs](#opción-c-instalación-local-de-jupyter-en-vuestros-pcs-con-kernel-python-propio)
+
 
 ## Opción a): Google Colab
 
@@ -21,9 +26,9 @@ Para abrir los cuadernos de esta práctica:
 
 Una vez abierto, podrás realizar modificaciones sobre el cuaderno, pero no podrás guardarlas. Si deseas guardar dichas modificaciones, deberás crear una copia local en tu cuenta de Google Drive. Para ello, ve a *"Archivo" > "Guardar una copia en Drive"*. Dicho notebook se almacenará en la carpeta *"Colab Notebooks"* de tu unidad de Google Drive.
 
-## Opción b): Instalación local de Jupyter en PolilabsVPN (DSIC-Linux) o en los PCs del laboratorio del DSIC
+## Opción b): Jupyter Notebook en PolilabsVPN
 
-Debéis acceder al escritorio LINUX de los PCs del laboratorio del DSIC, o bien al escritorio DSIC-LINUX de [PolilabsVPN](https://polilabsvpn.upv.es/). 
+Debéis acceder al escritorio LINUX de los PCs del laboratorio del DSIC, o bien al escritorio DSIC-LINUX de [PolilabsVPN](https://polilabsvpn.upv.es/) si os conectáis desde casa. 
 
 Una vez estéis dentro del escritorio de Ubuntu Mate:
 
@@ -52,17 +57,29 @@ En la primera sesión (y solo en la primera) haremos uso de la librería `seabor
 
 Nota: este "hack" solo perdurará mientras vuestra sesión en polilabsVPN esté activa. 
 
-## Opción c): Instalación local de Jupyter en vuestros PCs con kernel propio
+Como alternativa a este "workaround", podéis optar por [construiros vuestro propio kernel de Python](#construir-un-kernel-python-propio).
+
+### Construir un kernel de Python propio
+
+Si queréis usar el escritorio DSIC-LINUX de PolilabsVPN y al mismo tiempo tener un mayor control sobre el entorno de trabajo, podéis seguir las instrucciones de la [Opción  c) para una instalación local](#opción-c-instalación-local-de-jupyter-en-vuestros-pcs-con-kernel-propio). Esto os permitirá ejecutar la versión más reciente de Jupyter y usar un kernel propio, en lugar del kernel que se os proporciona por defecto. Solo tenéis que tener la precaución de instalar el entorno virtual dentro de vuestro directorio `W`.
+
+## Opción c): Instalación local de Jupyter en vuestros PCs con kernel Python propio
 
 La tercera opción, recomendable para aquellos usuarios que quieran tener el control absoluto del entorno, es realizar una instalación local de Jupyter Notebook, y de un kernel Python3 propio que reúna todas las dependencias.
 
 A continuación se proporcionan instrucciones para sistemas basados en Debian.
 
-### 0. Instalar Python3 y virtualenv
+### 0a. Instalar Python3 y pip
 
-Abrir una terminal y ejecutar:
+Si no tienes instalado `python3` y `pip3` en tu sistema, abre una terminal y ejecuta:
 
-`sudo apt update && sudo apt install python3 python3-venv`
+`sudo apt update && sudo apt install python3 python3-pip`
+
+### 0b. Instalar virtualenv
+
+A continuación, instalaremos el módulo de terceros [`virtualenv`](https://pypi.org/project/virtualenv/) con `pip` para poder crear entornos virtuales.
+
+`pip3 install virtualenv`
 
 ### 1. Crear un entorno virtual de python
 
@@ -70,15 +87,15 @@ Crearemos un entorno virtual de Python3 para instalar los paquetes necesarios pa
 
 En la misma terminal, sitúate en un directorio donde quieras que se guarde el entorno virtual, y ejecuta:
 
-`python3 -m venv sin-env-ipykernel`
+  `python3 -m virtualenv sin-venv` 
 
-Esto creará la carpeta `sin-env-ipykernel` en el directorio de trabajo actual. 
+Esto creará la carpeta `sin-venv` en el directorio de trabajo actual. 
 
 Uso del entorno:
 
 - Para activar el entorno virtual en la terminal actual:
 
-  `source sin-env-ipykernel/bin/activate`
+  `source sin-venv/bin/activate`
 
 - Para desactivar el entorno virtual, simplemente:
 
@@ -89,17 +106,17 @@ Uso del entorno:
 
 Con el entorno virtual activado en la terminal, ejecutar:
 
-`pip install notebook ipykernel scikit-learn pandas seaborn openml numpy matplotlib`
+`pip3 install notebook ipykernel scikit-learn pandas seaborn openml numpy matplotlib`
 
 ### 3. Registrar el entorno virtual como kernel en Jupyter Notebook
 
 Con el entorno virtual activado en la terminal, ejecutar:
 
-`python -m ipykernel install --user --name sin-env-ipykernel`
+`python3 -m ipykernel install --user --name sin-venv`
 
 Para comprobar que todo ha ido bien, puedes examinar el contenido del fichero `kernel.json`:
 
-`cat $HOME/.local/share/jupyter/kernels/sin-env-ipykernel`
+`cat $HOME/.local/share/jupyter/kernels/sin-venv/kernel.json`
 
 Además, si quieres, puedes listar los kernels disponibles:
 
@@ -107,11 +124,11 @@ Además, si quieres, puedes listar los kernels disponibles:
 
 Y, si necesitas desinstalar el kernel:
 
-`jupyter kernelspec uninstall sin-env-ipykernel`
+`jupyter kernelspec uninstall sin-venv`
 
 ### 4. Lanzar Jupyter Notebook y seleccionar el nuevo kernel
 
-Lanza jupyter notebook, abre un cuaderno, y ve a *"Kernel" > "Change kernel"* para cambiar el kernel, seleccionando el nuevo `sin-env-ipykernel` (marca el checkbox para que se establezca como kernel por defecto).
+Lanza jupyter notebook, abre un cuaderno, y ve a *"Kernel" > "Change kernel"* para cambiar el kernel, seleccionando el nuevo `sin-venv` (marca el checkbox para que se establezca como kernel por defecto).
 
 # Datasets
 

@@ -37,14 +37,14 @@ Para la realización de la práctica, deberemos ser capaces de abrir, modificar 
 ## Tareas a realizar y entrega
 
 El día de la prueba práctica de laboratorio, se entregarán 5 cuadernos Jupyter (`.ipynb`):
-- 4 cuadernos correspondientes a la construcción, desarrollo y evaluación de clasificadores {Perceptrón, Regresión Logística} para las tareas {Digits, Olivetti}.
+- **4 cuadernos** correspondientes a la construcción, desarrollo y evaluación de clasificadores {Perceptrón, Regresión Logística} para las tareas {Digits, Olivetti}.
   + Se pueden realizar individualmente o por parejas (si se hace en pareja, indicarlo en el momento de la entrega).
-- 1 cuaderno correspondiente a la construcción, desarrollo y evaluación de un clasificador de Regresión Logística para una tarea extraída del repositorio OpenML.
-  + Realización individual.
+- **1 cuaderno** correspondiente a la construcción, desarrollo y evaluación de un clasificador de Regresión Logística para una tarea extraída del repositorio OpenML.
+  + Realización individual durante la prueba práctica de laboratorio.
 
 ## Evaluación
 
 La práctica 2 tiene una valoración máxima de 1.25 puntos:
 
-- 0.5 puntos: entrega y correcta realización de los 4 cuadernos Jupyter de las sesiones prácticas.
-- 0.75 puntos: evaluación competitiva de la prueba práctica de laboratorio. Se publicará una clasificación de todos los alumnos participantes. 
+- **0.5 puntos**: entrega y correcta realización de los 4 cuadernos Jupyter de las sesiones prácticas.
+- **0.75 puntos**: evaluación competitiva de la prueba práctica de laboratorio. Se publicará una clasificación de todos los alumnos participantes, ordenados de menor a mayor tasa de error del clasificador entregado. 
