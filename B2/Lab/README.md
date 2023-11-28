@@ -29,7 +29,7 @@ En esta práctica aprenderemos a construir sistemas de clasificación para difer
 Para la realización de la práctica, deberemos ser capaces de abrir, modificar y ejecutar los cuadernos Jupyter proporcionados, así como crear nuevos cuadernos. Para más detalles, ver las instrucciones de la [Sesión 1](P2.S1%20Entorno%20de%20trabajo%20+%20datasets/README.md).
 
 ## Planificación
-- **Sesión 1**: entorno de trabajo + presentación datasets.
+- [**Sesión 1**](P2.S1%20Entorno%20de%20trabajo%20+%20datasets/): entorno de trabajo + presentación datasets.
 - **Sesión 2**: construcción de clasificadores lineales basados en el algoritmo Perceptrón.
 - **Sesión 3**: construcción de clasificadores de regresión logística.
 - **Sesión 4**: prueba práctica de laboratorio.
