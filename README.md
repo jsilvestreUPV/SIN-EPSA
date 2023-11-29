@@ -18,9 +18,16 @@ inteligentes (SIN) de [l'Escola Politècnica Superior d'Alcoi (EPSA)](https://ww
     2. [Variables continuas y regla de Bayes](./B2/Teo/T2:%20Razonamiento%20probabilístico/T2.2a%20Variables%20continuas%20y%20regla%20de%20Bayes.ipynb)
         - [Ejercicios](./B2/Teo/T2:%20Razonamiento%20probabilístico/T2.2b%20Ejercicios.ipynb)
         - [Ejercicios resueltos](./B2/Teo/T2:%20Razonamiento%20probabilístico/T2.2c%20Ejercicios%20resueltos.ipynb)
+3. [Aprendizaje supervisado: regresión logística](./B2/Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/)
+    1. [Funciones discriminantes](./B2/Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.1a%20Funciones%20discriminantes.ipynb)
+        - [Ejercicios](./B2/Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.1b%20Ejercicios.ipynb)
+    2. [Algoritmo perceptrón](./B2/Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.2a%20Algoritmo%20Perceptrón.ipynb)
+        - [Ejercicios](./B2/Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.2b%20Ejercicios.ipynb)
+    3. Estimación del error
+    4. Regresión logística
 
 #### Laboratorio
 
-- [Sesión 1: Datasets](./B2/Lab/P2.S1%20Entorno%20de%20trabajo%20+%20datasets/)
+- [Sesión 1: Entorno de trabajo y datasets](./B2/Lab/P2.S1%20Entorno%20de%20trabajo%20+%20datasets/)
 - Sesión 2: Perceptrón
 - Sesión 3: Regresión Logística
