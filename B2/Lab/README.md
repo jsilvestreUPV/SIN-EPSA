@@ -30,7 +30,7 @@ Para la realización de la práctica, deberemos ser capaces de abrir, modificar 
 
 ## Planificación
 - [**Sesión 1**](P2.S1%20Entorno%20de%20trabajo%20+%20datasets/): entorno de trabajo + presentación datasets.
-- **Sesión 2**: construcción de clasificadores lineales basados en el algoritmo Perceptrón.
+- [**Sesión 2**](P2.S2%20Perceptrón/): construcción de clasificadores lineales basados en el algoritmo Perceptrón.
 - **Sesión 3**: construcción de clasificadores de regresión logística.
 - **Sesión 4**: prueba práctica de laboratorio.
 
