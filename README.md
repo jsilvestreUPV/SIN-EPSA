@@ -29,5 +29,5 @@ inteligentes (SIN) de [l'Escola Politècnica Superior d'Alcoi (EPSA)](https://ww
 #### Laboratorio
 
 - [Sesión 1: Entorno de trabajo y datasets](./B2/Lab/P2.S1%20Entorno%20de%20trabajo%20+%20datasets/)
-- Sesión 2: Perceptrón
+- [Sesión 2: Perceptrón](./B2/Lab/P2.S2%20Perceptrón/)
 - Sesión 3: Regresión Logística

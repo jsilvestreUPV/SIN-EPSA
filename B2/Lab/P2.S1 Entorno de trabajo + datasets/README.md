@@ -67,7 +67,7 @@ Si queréis usar el escritorio DSIC-LINUX de PolilabsVPN y al mismo tiempo tener
 
 La tercera opción, recomendable para aquellos usuarios que quieran tener el control absoluto del entorno, es realizar una instalación local de Jupyter Notebook, y de un kernel Python3 propio que reúna todas las dependencias.
 
-A continuación se proporcionan instrucciones para sistemas basados en Debian.
+A continuación se proporcionan instrucciones para sistemas operativos GNU/Linux basados en Debian. Si usas otra distribución (p.e. Fedora) o sistema operativo (p.e. Windows, MacOS), deberás adaptar los pasos 0a y 0b (el resto de pasos deberían ser idénticos). 
 
 ### 0a. Instalar Python3 y pip
 
