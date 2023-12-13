@@ -23,7 +23,8 @@ inteligentes (SIN) de [l'Escola Politècnica Superior d'Alcoi (EPSA)](https://ww
         - [Ejercicios](./B2/Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.1b%20Ejercicios.ipynb)
     2. [Algoritmo perceptrón](./B2/Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.2a%20Algoritmo%20Perceptrón.ipynb)
         - [Ejercicios](./B2/Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.2b%20Ejercicios.ipynb)
-    3. Estimación del error
+    3. [Estimación del error](./B2/Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.3a%20Estimación%20del%20error.ipynb)
+        - [Ejercicios](./B2/Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.3b%20Ejercicios.ipynb)
     4. Regresión logística
 
 #### Laboratorio
