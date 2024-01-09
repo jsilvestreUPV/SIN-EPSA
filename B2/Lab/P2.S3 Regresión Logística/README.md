@@ -2,7 +2,7 @@
 
 ## Descripción
 
-En la tercera sesión aplicaremos [regresión logística](../../Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.4a%20Regresión%20Logística.ipynb) a diferentes tareas para entrenar sistemas de clasificación automática **probabilísticos** basados en [funciones discriminantes lineales](../../Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.1a%20Funciones%20discriminantes.ipynb)**.
+En la tercera sesión aplicaremos [regresión logística](../../Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.4a%20Regresión%20Logística.ipynb) a diferentes tareas para entrenar sistemas de clasificación automática **probabilísticos** basados en [funciones discriminantes lineales](../../Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.1a%20Funciones%20discriminantes.ipynb).
 
 A modo de ejemplo, se proporciona un [cuaderno Jupyter](./01_iris.ipynb) que aplica regresión logística sobre la tarea la tarea de clasificación de [flores de la familia Iris](../P2.S1%20Entorno%20de%20trabajo%20+%20datasets/01_iris.ipynb) usando una [implementación proporcionada por la librería sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html).
 
