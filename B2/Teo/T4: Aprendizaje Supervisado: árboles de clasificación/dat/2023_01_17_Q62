@@ -1,0 +1,5 @@
+digraph { rankdir=TB splines=false node[shape=oval margin=0.02 width=0 height=0]
+A[label=<x2 &le; 4>] L[label=" " shape=circle] R[label=<x1 &le; 4>] A->{L, R}
+RL[label=<x2 &le; 2>] RR[label=" " shape=circle style=filled color=black] R->{RL, RR}
+RLL[label=" " shape=circle style=filled color=black] RLR[label=" " shape=circle] RL->{RLL, RLR}
+}
