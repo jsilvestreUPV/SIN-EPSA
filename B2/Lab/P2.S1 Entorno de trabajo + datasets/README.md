@@ -21,7 +21,7 @@ Para abrir los cuadernos de esta práctica:
 1. Accede a [Google Colab](https://colab.research.google.com/).
 1. Ve a *"Archivo" > "Abrir cuaderno" > "GitHub"*.
 1. Escribe la URL de este repositorio: 
-    https://github.com/jsilvestreUPV/SIN_2023-24
+    https://github.com/jsilvestreUPV/SIN-EPSA
 1. Haz click sobre el cuaderno que quieras abrir en Colab.
 
 Una vez abierto, podrás realizar modificaciones sobre el cuaderno, pero no podrás guardarlas. Si deseas guardar dichas modificaciones, deberás crear una copia local en tu cuenta de Google Drive. Para ello, ve a *"Archivo" > "Guardar una copia en Drive"*. Dicho notebook se almacenará en la carpeta *"Colab Notebooks"* de tu unidad de Google Drive.
@@ -37,9 +37,9 @@ Una vez estéis dentro del escritorio de Ubuntu Mate:
 1. Situarse en el directorio W:
     + `cd $HOME/W`
 1. Clonar el repositorio git de la asignatura:
-    + `git clone https://github.com/jsilvestreUPV/SIN_2023-24.git`
+    + `git clone https://github.com/jsilvestreUPV/SIN-EPSA.git`
 1. Ir al directorio de la práctica 2:
-    + `cd SIN_2023-23/B2/Lab`
+    + `cd SIN-EPSA/B2/Lab`
 1. Ejecutar Jupyter:
     + `jupyter notebook`
 

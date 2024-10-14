@@ -32,7 +32,8 @@ Para la realización de la práctica, deberemos ser capaces de abrir, modificar 
 - [**Sesión 1**](./P2.S1%20Entorno%20de%20trabajo%20+%20datasets/README.md): entorno de trabajo + presentación datasets.
 - [**Sesión 2**](./P2.S2%20Perceptrón/README.md): construcción de clasificadores lineales basados en el algoritmo Perceptrón.
 - [**Sesión 3**](./P2.S3%20Regresión%20Logística/README.md): construcción de clasificadores de regresión logística.
-- **Sesión 4**: prueba práctica de laboratorio.
+- **Sesión 4**: trabajo autónomo y resolución de problemas y dudas.
+- **Sesión 5**: prueba práctica de laboratorio.
 
 ## Tareas a realizar y entrega
 
@@ -41,10 +42,3 @@ El día de la prueba práctica de laboratorio, se entregarán 5 cuadernos Jupyte
   + Se pueden realizar individualmente o por parejas (si se hace en pareja, indicarlo en el momento de la entrega).
 - **1 cuaderno** correspondiente a la construcción, desarrollo y evaluación de un clasificador de Regresión Logística para una tarea extraída del repositorio OpenML.
   + Realización individual durante la prueba práctica de laboratorio.
-
-## Evaluación
-
-La práctica 2 tiene una valoración máxima de 1.25 puntos:
-
-- **0.5 puntos**: entrega y correcta realización de los 4 cuadernos Jupyter de las sesiones prácticas.
-- **0.75 puntos**: evaluación competitiva de la prueba práctica de laboratorio. Se publicará una clasificación de todos los alumnos participantes, ordenados de menor a mayor tasa de error del clasificador entregado. 
