@@ -49,7 +49,7 @@ En la primera sesión (y solo en la primera) haremos uso de la librería `seabor
 
 1. Abrir una terminal.
 2. Instalar el paquete `seaborn` con `pip`:
-    + `pip3 install seaborn`
+    + `pip3 install seaborn --upgrade`
 3. Exportar la ruta de instalación del paquete en la misma terminal:
     + `export PYTHONPATH=$HOME/.local/lib/python3.10/site-packages:$PYTHONPATH`
 4. Lanzar Jupyter desde la misma terminal:
