@@ -48,11 +48,9 @@ Una vez estéis dentro del escritorio de Ubuntu Mate:
 En la primera sesión (y solo en la primera) haremos uso de la librería `seaborn` de Python, la cual no está instalada en el kernel que usa Jupyter por defecto. Para solucionarlo, seguid estos pasos:
 
 1. Abrir una terminal.
-2. Instalar el paquete `seaborn` con `pip`:
+2. Instalar/actualizar el paquete `seaborn` con `pip`:
     + `pip3 install seaborn --upgrade`
-3. Exportar la ruta de instalación del paquete en la misma terminal:
-    + `export PYTHONPATH=$HOME/.local/lib/python3.10/site-packages:$PYTHONPATH`
-4. Lanzar Jupyter desde la misma terminal:
+3. Lanzar Jupyter desde la misma terminal:
     + `jupyter notebook`
 
 Nota: este "hack" solo perdurará mientras vuestra sesión en polilabsVPN esté activa. 
