@@ -1,4 +1,4 @@
-# Material docente de Sistemas Inteligentes (SIN), curso 2024-25
+# Material docente de Sistemas Inteligentes (SIN), curso 2025-26
 
 Este repositorio contiene material docente de la asignatura Sistemas
 inteligentes (SIN) de [l'Escola Politècnica Superior d'Alcoi (EPSA)](https://www.upv.es/entidades/epsa/) de la
@@ -27,12 +27,16 @@ inteligentes (SIN) de [l'Escola Politècnica Superior d'Alcoi (EPSA)](https://ww
         - [Ejercicios](./B2/Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.3b%20Ejercicios.ipynb)
     4. [Regresión logística](./B2/Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.4a%20Regresión%20Logística.ipynb)
         - [Ejercicios](./B2/Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.4b%20Ejercicios.ipynb)
-4. [Aprendizaje supervisado: árboles de clasificación](./B2/Teo/T4:%20Aprendizaje%20Supervisado:%20árboles%20de%20clasificación/)
-    1. [Árboles de clasificación](./B2/Teo/T4:%20Aprendizaje%20Supervisado:%20árboles%20de%20clasificación/T4.1a%20Árboles%20de%20Clasificación.ipynb)
-        - [Ejercicios](./B2/Teo/T4:%20Aprendizaje%20Supervisado:%20árboles%20de%20clasificación/T4.1b%20Ejercicios.ipynb)
-5. [Aprendizaje no supervisado: algoritmo K-medias (clustering)](./B2/Teo/T5:%20Aprendizaje%20no%20supervisado:%20algoritmo%20K-medias/)
+4. [Aprendizaje no supervisado: algoritmo K-medias (clustering)](./B2/Teo/T5:%20Aprendizaje%20no%20supervisado:%20algoritmo%20K-medias/)
     1. [Algoritmo K-medias](./B2/Teo/T5:%20Aprendizaje%20no%20supervisado:%20algoritmo%20K-medias/T5.1a%20Algoritmo%20K-medias.ipynb)
         - [Ejercicios](./B2/Teo/T5:%20Aprendizaje%20no%20supervisado:%20algoritmo%20K-medias/T5.1b%20Ejercicios.ipynb)
+
+##### Contenidos descartados (de cursos anteriores)
+
+1. [Aprendizaje supervisado: árboles de clasificación](./B2/Teo/old/T4:%20Aprendizaje%20Supervisado:%20árboles%20de%20clasificación/)
+    1. [Árboles de clasificación](./B2/Teo/old/T4:%20Aprendizaje%20Supervisado:%20árboles%20de%20clasificación/T4.1a%20Árboles%20de%20Clasificación.ipynb)
+        - [Ejercicios](./B2/Teo/old/T4:%20Aprendizaje%20Supervisado:%20árboles%20de%20clasificación/T4.1b%20Ejercicios.ipynb)
+
 
 #### Laboratorio
 
