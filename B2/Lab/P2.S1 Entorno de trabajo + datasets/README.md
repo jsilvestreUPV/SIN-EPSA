@@ -8,7 +8,7 @@ En la primera sesión nos familiarizaremos con el [entorno de trabajo](#entorno-
 Para la realización de la práctica, deberemos ser capaces de abrir, modificar y ejecutar los cuadernos Jupyter proporcionados, así como crear nuevos cuadernos. Para ello tenemos tres opciones:
 
 - [Opción a): Google Colab](#opción-a-google-colab)
-- [Opción b): Jupyter Notebook en PolilabsVPN](#opción-b-jupyter-notebook-en-polilabsvpn)
+- [Opción b): Jupyter Notebook en Polilabs](#opción-b-jupyter-notebook-en-polilabs)
 - [Opción c): Jupyter Notebook en vuestros PCs](#opción-c-instalación-local-de-jupyter-en-vuestros-pcs-con-kernel-python-propio)
 
 
@@ -20,15 +20,15 @@ Para abrir los cuadernos de esta práctica:
 
 1. Accede a [Google Colab](https://colab.research.google.com/).
 1. Ve a *"Archivo" > "Abrir cuaderno" > "GitHub"*.
-1. Escribe la URL de este repositorio: 
+1. Escribe el usuario *jsilvestreUPV* y selecciona el repositorio *SIN-EPSA*, o bien introduce directamente la URL de este repositorio: 
     https://github.com/jsilvestreUPV/SIN-EPSA
 1. Haz click sobre el cuaderno que quieras abrir en Colab.
 
 Una vez abierto, podrás realizar modificaciones sobre el cuaderno, pero no podrás guardarlas. Si deseas guardar dichas modificaciones, deberás crear una copia local en tu cuenta de Google Drive. Para ello, ve a *"Archivo" > "Guardar una copia en Drive"*. Dicho notebook se almacenará en la carpeta *"Colab Notebooks"* de tu unidad de Google Drive.
 
-## Opción b): Jupyter Notebook en PolilabsVPN
+## Opción b): Jupyter Notebook en Polilabs
 
-Debéis acceder al escritorio LINUX de los PCs del laboratorio del DSIC, o bien al escritorio DSIC-LINUX de [PolilabsVPN](https://polilabsvpn.upv.es/) si os conectáis desde casa. 
+Debéis acceder al escritorio LINUX de los PCs del laboratorio del DSIC, o bien al escritorio DSIC-LINUX de [Polilabs](https://polilabs.upv.es/) si os conectáis desde casa. 
 
 Una vez estéis dentro del escritorio de Ubuntu Mate:
 
@@ -59,7 +59,7 @@ Como alternativa a este "workaround", podéis optar por [construiros vuestro pro
 
 ### Construir un kernel de Python propio
 
-Si queréis usar el escritorio DSIC-LINUX de PolilabsVPN y al mismo tiempo tener un mayor control sobre el entorno de trabajo, podéis seguir las instrucciones de la [Opción  c) para una instalación local](#opción-c-instalación-local-de-jupyter-en-vuestros-pcs-con-kernel-propio). Esto os permitirá ejecutar la versión más reciente de Jupyter y usar un kernel propio, en lugar del kernel que se os proporciona por defecto. Solo tenéis que tener la precaución de instalar el entorno virtual dentro de vuestro directorio `W`.
+Si queréis usar el escritorio DSIC-LINUX de Polilabs y al mismo tiempo tener un mayor control sobre el entorno de trabajo, podéis seguir las instrucciones de la [Opción  c) para una instalación local](#opción-c-instalación-local-de-jupyter-en-vuestros-pcs-con-kernel-propio). Esto os permitirá ejecutar la versión más reciente de Jupyter y usar un kernel propio, en lugar del kernel que se os proporciona por defecto. Solo tenéis que tener la precaución de instalar el entorno virtual dentro de vuestro directorio `W`.
 
 ## Opción c): Instalación local de Jupyter en vuestros PCs con kernel Python propio
 
