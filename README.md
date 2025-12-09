@@ -31,10 +31,10 @@ inteligentes (SIN) de [l'Escola Politècnica Superior d'Alcoi (EPSA)](https://ww
     4. [Regresión logística](./B2/Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.4a%20Regresión%20Logística.ipynb)
         - [Ejercicios](./B2/Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.4b%20Ejercicios.ipynb)
         - [Ejercicios resueltos](./B2/Teo/T3:%20Aprendizaje%20Supervisado:%20regresión%20logística/T3.4c%20Ejercicios%20Resueltos.ipynb)
-4. [Aprendizaje no supervisado: algoritmo K-medias (clustering)](./B2/Teo/T5:%20Aprendizaje%20no%20supervisado:%20algoritmo%20K-medias/)
-    1. [Algoritmo K-medias](./B2/Teo/T5:%20Aprendizaje%20no%20supervisado:%20algoritmo%20K-medias/T5.1a%20Algoritmo%20K-medias.ipynb)
-        - [Ejercicios](./B2/Teo/T5:%20Aprendizaje%20no%20supervisado:%20algoritmo%20K-medias/T5.1b%20Ejercicios.ipynb)
-        - [Ejercicios resueltos](./B2/Teo/T5:%20Aprendizaje%20no%20supervisado:%20algoritmo%20K-medias/T5.1c%20Ejercicios%20Resueltos.ipynb)
+4. [Aprendizaje no supervisado: algoritmo K-medias (clustering)](./B2/Teo/T4:%20Aprendizaje%20no%20supervisado:%20algoritmo%20K-medias/)
+    1. [Algoritmo K-medias](./B2/Teo/T4:%20Aprendizaje%20no%20supervisado:%20algoritmo%20K-medias/T4.1a%20Algoritmo%20K-medias.ipynb)
+        - [Ejercicios](./B2/Teo/T4:%20Aprendizaje%20no%20supervisado:%20algoritmo%20K-medias/T4.1b%20Ejercicios.ipynb)
+        - [Ejercicios resueltos](./B2/Teo/T4:%20Aprendizaje%20no%20supervisado:%20algoritmo%20K-medias/T4.1c%20Ejercicios%20Resueltos.ipynb)
 
 ##### Contenidos descartados (de cursos anteriores)
 
