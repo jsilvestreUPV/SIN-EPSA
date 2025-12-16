@@ -32,7 +32,7 @@ Para la realización de la práctica, deberemos ser capaces de abrir, modificar 
 - [**Sesión 1**](./P2.S1%20Entorno%20de%20trabajo%20+%20datasets/README.md): entorno de trabajo + presentación datasets.
 - [**Sesión 2**](./P2.S2%20Perceptrón/README.md): construcción de clasificadores lineales basados en el algoritmo Perceptrón.
 - [**Sesión 3**](./P2.S3%20Regresión%20Logística/README.md): construcción de clasificadores de regresión logística.
-- **Sesión 4**: prueba práctica de laboratorio.
+- [**Sesión 4**](./P2.S4%20Examen%20(Competición)/README.md): prueba práctica de laboratorio.
 
 ## Tareas a realizar y entrega
 
