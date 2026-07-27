@@ -1,4 +1,4 @@
-# Material docente de Sistemas Inteligentes (SIN), curso 2025-26
+# Material docente de Sistemas Inteligentes (SIN).
 
 Este repositorio contiene material docente de la asignatura Sistemas
 inteligentes (SIN) de [l'Escola Politècnica Superior d'Alcoi (EPSA)](https://www.upv.es/entidades/epsa/) de la
