@@ -19,4 +19,4 @@ Nota: los conjuntos de test son de libre "confección", y por tanto, privados. C
 
 ## Entrega
 
-El dia de la prueba práctica de laboratorio, se deberán entregar 2 cuadernos Jupyter (ficheros `.ipynb`) correspondientes a las actividades 2.1 y 2.2 descritas en la sección anterior. 
+No tenéis que entregar nada. Estos cuadernos son exclusivamente para vuestro aprendizaje, y para prepararos de cara a la [prueba práctica de laboratorio](../P2.S4%20Examen%20(Competición)/README.md).
