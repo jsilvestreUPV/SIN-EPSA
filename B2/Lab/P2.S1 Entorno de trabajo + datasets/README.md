@@ -7,28 +7,15 @@ En la primera sesión nos familiarizaremos con el [entorno de trabajo](#entorno-
 
 Para la realización de la práctica, deberemos ser capaces de abrir, modificar y ejecutar los cuadernos Jupyter proporcionados, así como crear nuevos cuadernos. Para ello tenemos tres opciones:
 
-- [Opción a): Google Colab](#opción-a-google-colab)
-- [Opción b): Jupyter Notebook en Polilabs](#opción-b-jupyter-notebook-en-polilabs)
-- [Opción c): Jupyter Notebook en vuestros PCs](#opción-c-instalación-local-de-jupyter-en-vuestros-pcs-con-kernel-python-propio)
+- [Opción a): Jupyter Notebook en Polilabs](#opción-a-jupyter-notebook-en-polilabs)
+- [Opción b): Jupyter Notebook en vuestros PCs](#opción-b-instalación-local-de-jupyter-en-vuestros-pcs-con-kernel-python-propio)
+- [Opción c): Google Colab](#opción-c-google-colab)
 
+**IMPORTANTE: Dado que el examen práctico de la asignatura se realizará en los PCs de los laboratorios del DSIC en un entorno especial de examen, os recomendamos usar la OPCIÓN A (Polilabs).**
 
-## Opción a): Google Colab
+## Opción a): Jupyter Notebook en Polilabs
 
-La opción más sencilla y rápida pasa por usar Google Colab. Necesitaréis una cuenta de Google y acceso a internet permanente (lo cual puede ser un inconveniente; ver opción c).
-
-Para abrir los cuadernos de esta práctica:
-
-1. Accede a [Google Colab](https://colab.research.google.com/).
-1. Ve a *"Archivo" > "Abrir cuaderno" > "GitHub"*.
-1. Escribe el usuario *jsilvestreUPV* y selecciona el repositorio *SIN-EPSA*, o bien introduce directamente la URL de este repositorio: 
-    https://github.com/jsilvestreUPV/SIN-EPSA
-1. Haz click sobre el cuaderno que quieras abrir en Colab.
-
-Una vez abierto, podrás realizar modificaciones sobre el cuaderno, pero no podrás guardarlas. Si deseas guardar dichas modificaciones, deberás crear una copia local en tu cuenta de Google Drive. Para ello, ve a *"Archivo" > "Guardar una copia en Drive"*. Dicho notebook se almacenará en la carpeta *"Colab Notebooks"* de tu unidad de Google Drive.
-
-## Opción b): Jupyter Notebook en Polilabs
-
-Debéis acceder al escritorio LINUX de los PCs del laboratorio del DSIC, o bien al escritorio DSIC-LINUX de [Polilabs](https://polilabs.upv.es/) si os conectáis desde casa. 
+Debéis acceder al escritorio LINUX de los PCs del laboratorio del DSIC, o bien al escritorio DSIC-LINUX de [Polilabs](https://polilabs.upv.es/) si os conectáis desde casa.
 
 Una vez estéis dentro del escritorio de Ubuntu Mate:
 
@@ -53,7 +40,7 @@ En la primera sesión (y solo en la primera) haremos uso de la librería `seabor
 3. Lanzar Jupyter desde la misma terminal:
     + `jupyter notebook`
 
-Nota: este "hack" solo perdurará mientras vuestra sesión en polilabsVPN esté activa. 
+Nota: este "hack" solo perdurará mientras vuestra sesión en polilabs esté activa. 
 
 Como alternativa a este "workaround", podéis optar por [construiros vuestro propio kernel de Python](#construir-un-kernel-python-propio).
 
@@ -61,9 +48,9 @@ Como alternativa a este "workaround", podéis optar por [construiros vuestro pro
 
 Si queréis usar el escritorio DSIC-LINUX de Polilabs y al mismo tiempo tener un mayor control sobre el entorno de trabajo, podéis seguir las instrucciones de la [Opción  c) para una instalación local](#opción-c-instalación-local-de-jupyter-en-vuestros-pcs-con-kernel-propio). Esto os permitirá ejecutar la versión más reciente de Jupyter y usar un kernel propio, en lugar del kernel que se os proporciona por defecto. Solo tenéis que tener la precaución de instalar el entorno virtual dentro de vuestro directorio `W`.
 
-## Opción c): Instalación local de Jupyter en vuestros PCs con kernel Python propio
+## Opción b): Instalación local de Jupyter en vuestros PCs con kernel Python propio
 
-La tercera opción, recomendable para aquellos usuarios que quieran tener el control absoluto del entorno, es realizar una instalación local de Jupyter Notebook, y de un kernel Python3 propio que reúna todas las dependencias.
+La segunda opción es realizar una instalación local de Jupyter Notebook en vuestros equipos (es decir, fuera del entorno de Polilabs), y de un kernel Python3 propio que reúna todas las dependencias. Es una buena opción si no queréis depender de una conexión a internet para trabajar, o si queréis tener mayor control sobre vuestro entorno de trabajo. 
 
 A continuación se proporcionan instrucciones para sistemas operativos GNU/Linux basados en Debian. Si usas otra distribución (p.e. Fedora) o sistema operativo (p.e. Windows, MacOS), deberás adaptar los pasos 0a y 0b (el resto de pasos deberían ser idénticos). 
 
@@ -124,9 +111,29 @@ Y, si necesitas desinstalar el kernel:
 
 `jupyter kernelspec uninstall sin-venv`
 
-### 4. Lanzar Jupyter Notebook y seleccionar el nuevo kernel
+### 4. Clonar repo, lanzar Jupyter Notebook y seleccionar el nuevo kernel
 
-Lanza jupyter notebook, abre un cuaderno, y ve a *"Kernel" > "Change kernel"* para cambiar el kernel, seleccionando el nuevo `sin-venv` (marca el checkbox para que se establezca como kernel por defecto).
+1. Clonar el repositorio git de la asignatura:
+    + `git clone https://github.com/jsilvestreUPV/SIN-EPSA.git`
+1. Ir al directorio de la práctica 2:
+    + `cd SIN-EPSA/B2/Lab`
+1. Ejecutar Jupyter:
+    + `jupyter notebook`
+1. Ve a *"Kernel" > "Change kernel"* para cambiar el kernel, seleccionando el nuevo `sin-venv` (marca el checkbox para que se establezca como kernel por defecto).
+
+## Opción c): Google Colab
+
+La tercera opción, pasa por usar Google Colab, un entorno de Jupyter Notebook gratuito que funciona en la nube de Google. Aunque este entorno dista de ser un entorno de trabajo idéntico al de los laboratorios, puede resultar interesante para familiarizarse con la herramienta. Necesitaréis una cuenta de Google y acceso a internet permanente (lo cual puede ser un inconveniente). 
+
+Para abrir los cuadernos de esta práctica:
+
+1. Accede a [Google Colab](https://colab.research.google.com/).
+1. Ve a *"Archivo" > "Abrir cuaderno" > "GitHub"*.
+1. Escribe el usuario *jsilvestreUPV* y selecciona el repositorio *SIN-EPSA*, o bien introduce directamente la URL de este repositorio: 
+    https://github.com/jsilvestreUPV/SIN-EPSA
+1. Haz click sobre el cuaderno que quieras abrir en Colab.
+
+Una vez abierto, podrás realizar modificaciones sobre el cuaderno, pero no podrás guardarlas. Si deseas guardar dichas modificaciones, deberás crear una copia local en tu cuenta de Google Drive. Para ello, ve a *"Archivo" > "Guardar una copia en Drive"*. Dicho notebook se almacenará en la carpeta *"Colab Notebooks"* de tu unidad de Google Drive.
 
 # Datasets
 
