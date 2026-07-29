@@ -34,10 +34,12 @@ Para la realización de la práctica, deberemos ser capaces de abrir, modificar 
 - [**Sesión 3**](./P2.S3%20Regresión%20Logística/README.md): construcción de clasificadores de regresión logística.
 - [**Sesión 4**](./P2.S4%20Examen%20(Competición)/README.md): prueba práctica de laboratorio.
 
-## Tareas a realizar y entrega
+## Entrega y evaluación
 
-El día de la prueba práctica de laboratorio, se entregarán 5 cuadernos Jupyter (`.ipynb`):
-- **4 cuadernos** correspondientes a la construcción, desarrollo y evaluación de clasificadores {Perceptrón, Regresión Logística} para las tareas {Digits, Olivetti}.
-  + Se pueden realizar individualmente o por parejas (si se hace en pareja, indicarlo en el momento de la entrega).
-- **1 cuaderno** correspondiente a la construcción, desarrollo y evaluación de un clasificador de Regresión Logística para una tarea extraída del repositorio OpenML.
-  + Realización individual durante la prueba práctica de laboratorio.
+El día de la prueba práctica de laboratorio se entregará 1 cuaderno Jupyter (`.ipynb`) correspondiente a la construcción, desarrollo y evaluación de un clasificador de Regresión Logística de mínimo error para una tarea extraída del repositorio OpenML, siguiendo el formato de una competición (challenge) de clasificación. 
+
+- Modelo de cuaderno de examen (Estudiantes): [01-reto.ipynb](./P2.S4%20Examen%20(Competición)/01-reto.ipynb)
+- Cuaderno de evaluación (Profesorado): [02-evaluacion.ipynb](./P2.S4%20Examen%20(Competición)/02-evaluacion.ipynb)
+
+La nota de la prueba se calculará en función de la tasa de error en test alcanzada por el clasificador propuesto, en comparación con la mejor tasa de error en test obtenida por todos los participantes de la competición.
+

@@ -10,9 +10,6 @@ Posteriormente, el profesor realizará la evaluación de los sistemas presentado
 
 ## Entrega
 
-El dia del examen se entregará, en la tarea poliformaT correspondiente:
+El dia del examen se entregará, en la tarea poliformaT correspondiente, **1 cuaderno** correspondiente al reto propuesto por el profesor, que consiste en la construcción, desarrollo y evaluación de un clasificador de Regresión Logística para una tarea extraída del repositorio OpenML.
 
-- **4 cuadernos** correspondientes a la construcción, desarrollo y evaluación de clasificadores {Perceptrón, Regresión Logística} para las tareas {Digits, Olivetti}.
-  + Se pueden realizar individualmente o por parejas (si se hace en pareja, indicarlo en el momento de la entrega).
-- **1 cuaderno** correspondiente al reto propuesto por el profesor, que consiste en la construcción, desarrollo y evaluación de un clasificador de Regresión Logística para una tarea extraída del repositorio OpenML.
-  + Realización individual durante la prueba práctica de laboratorio.
+- Cuaderno de ejemplo: [01-reto.ipynb](./01-reto.ipynb)
